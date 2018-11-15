@@ -1,0 +1,230 @@
+fileFormatVersion: 2
+guid: 803674b9f6bbdde4b895373b1318c8d0
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Referee_0
+    21300002: Referee_1
+    21300004: Referee_2
+    21300006: Referee_3
+    21300008: Referee_4
+    21300010: Referee_5
+    21300012: Referee_6
+    21300014: Referee_7
+    21300016: Referee_8
+    21300018: Referee_9
+    21300020: Referee_10
+    21300022: Referee_11
+    21300024: Referee_12
+    21300026: Referee_13
+    21300028: Referee_14
+    21300030: Referee_15
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: -1
+    aniso: 1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Referee_0
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 416
+        width: 26
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Referee_1
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 414
+        width: 22
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Referee_2
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 409
+        width: 26
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Referee_3
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 448
+        width: 33
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Referee_4
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 406
+        width: 28
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Referee_5
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 431
+        width: 41
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Referee_6
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 413
+        width: 33
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Referee_7
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 360
+        width: 21
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Referee_8
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 368
+        width: 17
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Referee_9
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 379
+        width: 17
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Referee_10
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 348
+        width: 17
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Referee_11
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 348
+        width: 17
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Referee_12
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 350
+        width: 17
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Referee_13
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 350
+        width: 17
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Referee_14
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 350
+        width: 17
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Referee_15
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 350
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
