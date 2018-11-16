@@ -9,12 +9,15 @@ public class Hero : MonoBehaviour {
     public float pitchMult = 30;
     public Bounds bounds;
     public float gameRestartDelay = 2f;
+    public float fireRate = 0.2f;
 
     [Header("Set in script:")]
     [Space(10)]
     [SerializeField]
     private float _shieldLevel = 1f;
+    private float _fireTimer = 0.0f;
     public GameObject lastTriggerGo = null;
+    public GameObject projectile;
 
     void Awake()
     {
@@ -41,7 +44,14 @@ public class Hero : MonoBehaviour {
         }
         transform.position = pos;
         transform.rotation = Quaternion.Euler(yAxis * pitchMult, xAxis * rollMult, 0);
-	}
+
+        if (Input.GetButton("Fire") && _fireTimer <= 0.0)
+        {
+            GameObject.Instantiate(projectile, transform.position, transform.rotation);
+            _fireTimer = fireRate;
+        }
+        _fireTimer -= Time.deltaTime;
+    }
 
     void OnTriggerEnter(Collider other)
     {

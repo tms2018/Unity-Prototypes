@@ -56,6 +56,9 @@
     <Reference Include="UnityEngine">
       <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
     </Reference>
+    <Reference Include="Assembly-CSharp-firstpass">
+      <HintPath>Library\ScriptAssemblies\Assembly-CSharp-firstpass.dll</HintPath>
+    </Reference>
     <Reference Include="UnityEngine.UI">
       <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
     </Reference>
@@ -79,21 +82,15 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="Space SHMUP Prototype.Plugins.csproj">
-      <Project>{A34A68B4-FA2F-9881-FFDB-BFBD28FE5C11}</Project>
-      <Name>Space SHMUP Prototype.Plugins</Name>
-    </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
     <Compile Include="Assets\__Scripts\Enemy.cs" />
     <Compile Include="Assets\__Scripts\FlashingScript.cs" />
     <Compile Include="Assets\__Scripts\Hero.cs" />
     <Compile Include="Assets\__Scripts\Main.cs" />
+    <Compile Include="Assets\__Scripts\Projectile.cs" />
     <Compile Include="Assets\__Scripts\Shield.cs" />
     <Compile Include="Assets\__Scripts\Utils.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Assets\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
     <None Include="Assets\_Materials\UnlitAlpha.shader" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
